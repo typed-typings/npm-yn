@@ -1,4 +1,4 @@
-declare function yn (value: string | number | boolean, options?: yn.Options): boolean | null;
+declare function yn (value?: string | number | boolean, options?: yn.Options): boolean | null;
 
 declare namespace yn {
   export interface Options {
